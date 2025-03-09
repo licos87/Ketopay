@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <div className="flex flex-col py-10 items-center gap-6 mx-auto">
+    <div className="flex flex-col items-center gap-6 py-10 mx-auto">
       <ul className="flex gap-5">
         <li className="flex">
           <a className="text-xs" href="#">

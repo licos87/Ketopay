@@ -25,7 +25,7 @@ export function App() {
 
   return (
     <>
-      <div className="max-w-90 m-auto text-center pl-5 pr-5 relative h-screen flex flex-col">
+      <div className="max-w-90 m-auto text-center px-5 relative h-screen flex flex-col">
         <Header />
         <div className="grow-1">
           {isError && <NoContent />}

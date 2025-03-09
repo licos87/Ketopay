@@ -11,7 +11,7 @@ export function Header() {
   return (
     <header
       className={classNames(
-        'flex align-middle border-b border-b-[#ededed] tracking-widest font-bold text-2xl sticky top-0 pb-5 pt-5 bg-white',
+        'flex align-middle border-b border-b-[#ededed] tracking-widest font-bold text-2xl sticky top-0 py-5 bg-white',
         {
           'border-b-0': !isClose,
         }
