@@ -1,7 +1,7 @@
 export function Spiner() {
   return (
     <svg
-      className="absolute left-[calc(50vw-18px)] top-[50vh] rotate-180 animate-spin"
+      className="absolute left-[calc(50%-18px)] top-[calc(50%-36px)] rotate-180 animate-spin"
       width="36"
       height="36"
       viewBox="0 0 36 36"
